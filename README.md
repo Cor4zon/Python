@@ -1,12 +1,12 @@
 # Python
 
 
--[ ] itertools - сборник полезных итераторов
+-[] itertools - сборник полезных итераторов
 
 https://pythonworld.ru/moduli/modul-itertools.html
 
 
--[ ] numpy
+-[] numpy
 
--[ ] pandas https://www.kaggle.com/learn/pandas
+-[] pandas https://www.kaggle.com/learn/pandas
 
