@@ -5,7 +5,6 @@ dict3 = dict1.copy()
 dict3.update(dict2)
 print(dict3)
 
-
-# более изящный способ
 dict4 = {**dict1, **dict2}
 print(dict4)
+

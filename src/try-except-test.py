@@ -4,8 +4,7 @@ try:
         print(s[:s.index(" ")])
         s = s[s.index(" ")+1:]
 except ValueError:
-    if s:
-        print(s)
+    print(s) if s else None
     print("No spaces")
 finally:
     print("End of program")
