@@ -24,4 +24,8 @@ class LinkedList:
             return -1
 
         curr = self.head
+        for i in range(index):
+            cur = cur.next
+        return cur.val
+
 
