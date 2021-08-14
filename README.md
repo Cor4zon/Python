@@ -1,4 +1,4 @@
-[RealPython](https://realpython.com/django-setup/)
+[RealPython](https://realpython.com)
 
 [wsvincent](https://wsvincent.com/?ref=hackernoon.com)
 
