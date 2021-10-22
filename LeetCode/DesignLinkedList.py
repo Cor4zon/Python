@@ -107,6 +107,7 @@ class MyLinkedList:
 
         return -1
 
+
     def deleteAtIndex(self, index):
         if index == 0:
             self.head = self.head.next
