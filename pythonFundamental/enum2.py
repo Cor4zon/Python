@@ -1,5 +1,6 @@
+import string
 from timeit import timeit
-
+from string import ascii_lowercase
 
 def even_values(lst):
     """
@@ -33,3 +34,8 @@ def even_values_best(lst):
     [0, 0]
     """
     return lst[1::2]
+
+
+print(even_values(string.ascii_lowercase))
+print(even_values_better(string.ascii_lowercase))
+print(even_values_best(string.ascii_lowercase))
