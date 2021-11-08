@@ -1,5 +1,3 @@
-# 232. Implement Queue using Stacks
-from collections import deque
 class Stack:
     def __init__(self):
         self.stack = []
@@ -27,15 +25,26 @@ class Stack:
 class MyQueue:
 
     def __init__(self):
-        self.queue = Stack()
+        self.stack1 = Stack()
+        self.stack2 = Stack()
 
     def push(self, x: int) -> None:
-        self.queue.push(x)
+        val = self.stack1.pop()
+        while val:
+            self.stack2.push(val)
+            val = self.stack1.pop()
+
+        self.stack1.push(x)
+        val = self.stack2.pop()
+        while val:
+            self.stack1.push(val)
+            val = self.stack2.pop()
 
     def pop(self) -> int:
-        if len(self.queue) == 0:
-            print("Queue underflow")
+        if self.empty():
             return None
+
+        return self.stack1.pop()
 
         tempStack = Stack()
         while self.queue:
@@ -48,38 +57,11 @@ class MyQueue:
         return res
 
     def peek(self) -> int:
-        if self.empty():
-            print("Queue underflow")
-            return None
-
-        tempStack = Stack()
-        while self.queue:
-            tempStack.push(self.queue.pop())
-
-        res = tempStack.pop()
-        tempStack.push(res)
-
-        while tempStack:
-            self.queue.push(tempStack.pop())
-
-        return res
+        val = self.stack1.pop()
+        self.stack1.push(val)
+        return val
 
     def empty(self) -> bool:
-        if len(self.queue) == 0:
+        if len(self.stack1) == 0:
             return True
         return False
-
-
-# Your MyQueue object will be instantiated and called as such:
-obj = MyQueue()
-obj.push(1)
-obj.push(2)
-obj.push(3)
-obj.push(4)
-print(obj.pop())
-obj.push(5)
-print(obj.pop())
-print(obj.pop())
-print(obj.pop())
-print(obj.pop())
-
