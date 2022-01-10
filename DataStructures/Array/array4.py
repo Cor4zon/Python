@@ -16,3 +16,4 @@ def search_second_max(lst):
 lst = [random.randint(-10, 10) for _ in range(10)]
 print(lst)
 print(search_second_max(lst))
+

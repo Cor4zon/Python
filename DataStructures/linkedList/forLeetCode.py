@@ -8,8 +8,6 @@ class Node:
         return self.data
 
 
-
-
 class MyLinkedList:
 
     def __init__(self):

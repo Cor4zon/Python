@@ -1,0 +1,25 @@
+[<div class="section-square__price __no-disc js-price">
+                                    300 ₽                                </div>, <div class="section-square__price __no-disc js-price">
+                                    400 ₽                                </div>, <div class="section-square__price __no-disc js-price">
+                                    400 ₽                                </div>, <div class="section-square__price __no-disc js-price">
+                                    400 ₽                                </div>, <div class="section-square__price __no-disc js-price">
+                                    400 ₽                                </div>, <div class="section-square__price __no-disc js-price">
+                                    400 ₽                                </div>, <div class="section-square__price __no-disc js-price">
+                                    400 ₽                                </div>, <div class="section-square__price __no-disc js-price">
+                                    400 ₽                                </div>, <div class="section-square__price __no-disc js-price">
+                                    400 ₽                                </div>, <div class="section-square__price __no-disc js-price">
+                                    400 ₽                                </div>, <div class="section-square__price __no-disc js-price">
+                                    400 ₽                                </div>, <div class="section-square__price __no-disc js-price">
+                                    400 ₽                                </div>, <div class="section-square__price __no-disc js-price">
+                                    400 ₽                                </div>, <div class="section-square__price __no-disc js-price">
+                                    400 ₽                                </div>, <div class="section-square__price __no-disc js-price">
+                                    400 ₽                                </div>, <div class="section-square__price __no-disc js-price">
+                                    400 ₽                                </div>, <div class="section-square__price __no-disc js-price">
+                                    400 ₽                                </div>, <div class="section-square__price __no-disc js-price">
+                                    400 ₽                                </div>, <div class="section-square__price __no-disc js-price">
+                                    400 ₽                                </div>, <div class="section-square__price __no-disc js-price">
+                                    400 ₽                                </div>, <div class="section-square__price __no-disc js-price">
+                                    400 ₽                                </div>, <div class="section-square__price __no-disc js-price">
+                                    400 ₽                                </div>, <div class="section-square__price __no-disc js-price">
+                                    400 ₽                                </div>, <div class="section-square__price __no-disc js-price">
+                                    400 ₽                                </div>]

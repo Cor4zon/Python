@@ -16,12 +16,16 @@ prices = page_content.find_all(class_='main_price')
 # you can also access the main_price class by specifying the tag of the class
 prices = page_content.find_all('div', attrs={'class':'section-square__price __no-disc js-price'})
 
-prices_list = []
+import re
 
-for tag in prices:
-    if tag.next_sibling.string == None:
-        prices_list.append(" ")
-    else:
-        prices_list.append(tag.next_sibling.string)
+# just = 'Standard Price:20000'
+# price = re.findall("\d+", just)[0]
 
-print(prices_list)
+res = []
+for i in prices:
+    # print(i.contents[0])
+    print(type(i.contents[0]))
+    print(i.contents[0])
+    res.append(re.findall("\d+", i.contents[0]))
+
+print(res)

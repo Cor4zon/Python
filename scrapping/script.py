@@ -1,26 +1,18 @@
+"""
+<head><title>The Dormouse's story</title><p>Hey Jude</p></head>
+"""
+
 from bs4 import BeautifulSoup
 from doc import html_doc
 
 soup = BeautifulSoup(html_doc, 'html.parser')
-# print(soup.prettify())
 
+head_tag = soup.head
+print(head_tag)
 
-# print(soup.title)
-# print(soup.title.name)
-# print(soup.title.string)
-# print(soup.title.parent.name)
+print(head_tag.contents)
 
-print(soup.p)
-print(soup.p['class'])
+title_tag = head_tag.contents[0]
+print(title_tag)
 
-# for e in soup.findAll('a'):
-#     print(e)
-    # print(e['href'])
-    # print(e.get('href'))
-    # print(e['class'])
-    # print(e['id'])
-
-print("\n\n\n")
-# print(soup.find(id="link3"))
-
-print(soup.get_text())
+print(title_tag.contents)
